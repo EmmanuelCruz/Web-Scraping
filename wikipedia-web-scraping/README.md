@@ -6,7 +6,7 @@
 ## Descripción
 
 Aplicación de web scraping estático de una sola página hacia el sitio web de [Wikipedia](https://www.wikipedia.org/). Este web scraping es básico del nivel uno.
-
+En este ejemplo, se hace la extracción de datos con _requests_ y _lxml_, para las expresiones XPATH.
 
 ----
 
@@ -41,6 +41,21 @@ Y finalmente para obtener a su contenido, este resultado puede invocar una funci
 
 		text_content()
 
+Otra forma de extraer información es con ayuda de una expresión XPATH, como las mencionadas anteriormente. Para hacer uso de esta forma, se necesita de una expresión XPATH con la función _xpath_, implementada en el parser que se hizo anteriormente.
+
+		resultado = parser.xpath("ExpresionXPATH")
+		
+Por ejemplo, si quiero obtener el texto que dice _Inglés_ en la página de _Wikipedia_, podría analizar las características y obtener la información creando la expresión XPATH-
+
+		ingles = parser.xpath("//a[@id='js-link-box-en']/strong/text()")
+
+El resultado de la extracción es una lista, con cada uno de los elementos que cumplen la condición XPATH.
+
+Otro ejemplo que podríamos poner, es obtener todos los idiomas de la página principal de _Wikipedia_.
+
+		idiomas = parser.xpath("//div[contains(@class, 'central-featured-lang')]//strong/text()")
+		
+En particular, la etiqueta padre donde se encuentran todos estos elementos es un div, que tiene en particular la clase 'central-featured-lang'. De esta clase, buscamos todas las subetiquetas de tipo _strong_ y extraemos el contenido. Esto dará una lista con todos los idiomas de la página principal.
 
 ----
 

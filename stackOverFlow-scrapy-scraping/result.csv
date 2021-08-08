@@ -1,0 +1,100 @@
+descripcion,pregunta
+"
+            hi I have one dobut in oracle
+combine multiple rows into a comma-delimited with single quotes
+create table emp ( empid varchar2 (100));
+
+insert into emp values ('90322');
+
+insert into emp values ('...
+        ",mutliple row into singl row with commaseparated in oracle
+"
+            Long story short.
+I have the following text.
+""\*hello* * . [ }""
+
+It should be escsped like this:
+""\*hello* \\* \\. \\[ \\}""
+
+How to do this with python regex?
+Every special ...
+        ",how to escape not paired special characters
+"
+            I want to generate String that show the glass
+char glass=""[ ]"";
+
+The number of glasses will depend on the user input.
+For example, if the input is 3 then glass is [ ] [ ] [ ]
+and if I want ...
+        ",How to generate String for n time in C programming
+"
+            May I trouble anyone to help me understand how this sort of pseudocode algorithm works and how it arrived at the correct answer? Any help would be greatly appreciated.
+        ",Need help understanding basic pseudocode algorithm problems
+"
+            Trying to set up an Open Source project (https://github.com/duckduckgo/Android), however after doing a gradle sync and everything when I access certain kotlin files, it isn't able to resolve the ...
+        ",Android studio unable to recognise kotlin keywords?
+"
+            0
+1
+00:00:00,210 --> 00:00:00,930
+Hey,
+1
+2
+00:00:00,930 --> 00:00:05,280
+welcome to day 50 of your course
+2
+3
+        ",How can I remove lines from a string of code only containing numbers whilst leaving the lines of code with numbers and letters in place? Python
+"
+            I am working in unity and making a chatbot/virtual assistant. I have some python code which I want to execute. It works, however before it gets the output, the entire unity application hangs for like ...
+        ",Python crashing c# Project
+"
+            How can I implementAMQP protocol on Arduino?
+I haven't found any suitable library for that purpose, and I wonder how a simple AMQP send/receive can be implemented on Arduino.
+        ",Implementing AMQP protocol on arduino
+"
+            1 Day trying to open google play console but after loading several minutes this error always pop up
+
+An unexpected error has occurred. Please try again. (7A99E156)
+
+I've signed out from all google ...
+        ",An unexpected error has occurred. Please try again. (7A99E156)
+"
+            enter image description here
+firebase.ref.getDownloadURL() dosn't work and
+imageUrl will not be added to firebase database
+why ????
+        ",firebase storage dosn't download and add to firebase database
+"
+            I am recently reading the huggingface source code and find in https://github.com/huggingface/transformers/blob/master/examples/legacy/question-answering/run_squad.py:
+There is a function ...
+        ",Does DistributedDataParallel need the barrier in Dataloader
+"
+            I started a new angular project by running ng n myapp. I've used var unirest = require('unirest'); after a npm i unirest. My first issue was a
+
+TS2591: Cannot find name 'require'. Do you need to ...
+        ",Angular CLI 12.2 | Numerous modules not found after creating new project
+"
+            I'm following this tutorial: https://docs.microsoft.com/en-us/azure/postgresql/howto-migrate-using-export-and-import
+I've successfully created a script file using pg_dump. I ran this on my command ...
+        ",Azure Server for PostgreSQL failing when migrating with pg_dump and psql
+"
+            when the server is turned on for the first time, but when the component is updated / corrected, the server is disconnected and an error is issued
+error:
+[nodemon] restarting due to changes...
+(node:...
+        ","When fixing the code, nodemon does not restart the server"
+"
+            class Person:
+    def __init__(self, name):
+       self.name=name
+
+    def talk(self):
+       print(f'I am {self.name}')
+
+p1=Person('John')
+Person.talk(p1)  ---  (1)
+p1.talk(p1)   --- (2)
+
+I just ...
+        ",what is the difference between these two method?

@@ -10,12 +10,6 @@ En este, se utilizará _BeautifulSoup_ para resolver el problema junto con _requ
 
 ----
 
-## Encabezados
-Son los datos necesarios para hacer una petición como un usuario. En particular, un encabezado tiene un atributo llamado _user-agent_, que contiene información del navegador y el sistema operativo que se está utilizando para la extracción de datos.
-
-Esta información pasa como parámetro a la función _get_ en los _headers_. En caso de no pasar este parámetro, el valor por default para _headers_ es _boot_ y es más sencillo detectar la aplicación de web scraping.
-
-
 ## Parse
 El parse, está dado por la clase BautifulSoup. Se crea un objeto que recibe como parámetro el texto del archivo HTML, que anteriormente se obtuvo con un objeto de tipo _requests_ y la función _get_.
 

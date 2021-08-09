@@ -10,13 +10,6 @@ En este ejemplo, se hace la extracción de datos con _requests_ y _lxml_, para l
 
 ----
 
-## Encabezados
-
-Son los datos necesarios para hacer una petición como un usuario. En particular, un encabezado tiene un atributo llamado _user-agent_, que contiene información del navegador y el sistema operativo que se está utilizando para la extracción de datos.
-
-Esta información pasa como parámetro a la función _get_ en los _headers_. En caso de no pasar este parámetro, el valor por default para _headers_ es _boot_ y es más sencillo detectar la aplicación de web scraping.
-
-
 ## Parse
 
 La función _get_ y sus recursos dan paso a obtener el archivo HTML de una página. Sin embargo, se necesita parsear para obtener la información necesaria, con ayuda de la herramienta _lxml_. en particular, tiene un atributo que permite parsear a texto o cadena un archivo html.

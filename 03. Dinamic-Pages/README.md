@@ -13,6 +13,7 @@ En este módulo se trabaja con Web Scraping de nivel 3, que sirve para hacer web
 ## Prácticas
 
 * olx: Extracción de precios e información de coches de OLX México con carga de páginas dinámicas.
+* mercado-libre-web-scraping: Extracción de precio y nombre de productos de mercado libre usando web scraping vertical y horizontal con carga dinámica.
 
 ----
 

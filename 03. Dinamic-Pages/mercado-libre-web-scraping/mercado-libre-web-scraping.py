@@ -10,7 +10,7 @@ opts.add_argument(
     "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.80 Chrome/71.0.3578.80 Safari/537.36"
 )
 
-driver = webdriver.Chrome("chromedriver.exe", chrome_options=opts)
+driver = webdriver.Chrome("../chromedriver.exe", options=opts)
 
 # Se obtiene la página de la URL semilla
 driver.get('https://autos.mercadolibre.com.mx/refacciones-autos-camionetas/')

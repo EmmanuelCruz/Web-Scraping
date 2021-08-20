@@ -16,7 +16,7 @@ driver = webdriver.Chrome("../chromedriver.exe", options=opts)
 driver.get('https://twitter.com/login')
 
 # Acceso a usuario y contraseña
-usuario = 'emmanuel.cruzhe@gmail.com'
+usuario = 'usuario@correo.com'
 password = open('password.txt').readline().strip()
 
 ## Obtención de inputs para ingresar a Twwiter

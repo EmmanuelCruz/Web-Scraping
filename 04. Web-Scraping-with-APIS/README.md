@@ -26,3 +26,9 @@ Finalmente, **RESTful API** es una API ya implementada que se contruye a aprtir 
 * Verbo HTTP: objetivos del requerimiento del cliente, entre los más usados son GET, POST, PUT, PATCH, DELETE.
 * URI: 
 * Datos necesarios del requerimiento (como parámetros)
+
+----
+
+## Prácticas
+
+* udemy-web.scraping: web scraping a cursos de Python encontrados en _Udemy_. Se implementa un extra de almacenamiento de datos con _Pandas_.

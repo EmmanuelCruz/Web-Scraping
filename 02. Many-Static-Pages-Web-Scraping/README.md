@@ -18,3 +18,4 @@ Ejemplos de aplicación de forma teórica y práctica de Web Scraping horizontal
 * IGN-web-scraping: web scraping de videos y noticias de Xbox con información proveniente de IGN.
 * farmacia-web-scraping: extracción de datos de medicamentos usando únicamente web scraping horizontal.
 * urbania-web-scraping: manejo de más de una URL semilla para obtener información de propiedades en CDMX y Querétaro.
+* iframe-web-scraping: web scraping de iframes.

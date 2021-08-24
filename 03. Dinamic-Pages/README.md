@@ -16,6 +16,7 @@ En este módulo se trabaja con Web Scraping de nivel 3, que sirve para hacer web
 * mercado-libre-web-scraping: Extracción de precio y nombre de productos de mercado libre usando web scraping vertical y horizontal con carga dinámica.
 * reseñas-la-casa-de-toño: extracción de información sobre reseñas de La Casa de Toño (sucursal Cuajimalpa), con web scraping dinámico, con manejo automatizado de scroll.
 * twitter-web-scraping: llenado de formularios automático para ingresar a Twitter y extraer información de los tweets.
+* horarios-facultad-ciencias-2022-1: aprovechando que estamos en tiempo de incripciones, es un ejemplo de extracción de datos de los cursos de Ciencias de la Computación de la Facultad de Ciencias (UNAM) que hay en el semestre 2022-1.
 
 ----
 

@@ -22,7 +22,7 @@ La organización de este repositorio se divide en 6 apartado distintos
 3. [Dinamic-Pages](https://github.com/EmmanuelCruz/Web-Scraping/tree/master/03.%20Dinamic-Pages)
 4. [Web-Scraping-with-APIS](https://github.com/EmmanuelCruz/Web-Scraping/tree/master/04.%20Web-Scraping-with-APIS)
 5. [Web-Scraping-Autentication](https://github.com/EmmanuelCruz/Web-Scraping/tree/master/05.%20Web-Scraping-Autentication)
-6. Automatic-Web-Scraping
+6. [Automatic-Web-Scraping](https://github.com/EmmanuelCruz/Web-Scraping/tree/master/06.%20Automatic-Web-Scraping)
 
 ----
 
